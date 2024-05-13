@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --bg-color: #212529;
+    --border-color: #666;
+    --font-color: #f1f5f9;
+    --primary-color: #4dff91;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--font-color);
+    font-family: sans-serif;
+}
+
+#cabecalho {
+    margin: 0px;
+    margin-bottom: 70px;
+    display: block;
+    text-align: center;
+    border-top: var(--primary-color) double 5px;
+    border-bottom: var(--primary-color) double 5px;
+    padding: 20px;
+}
+
+.cadDevs {
+    font-size: 50px;
+    padding: 15px 0 0 0;
+    color: var(--font-color);
+    margin-bottom: 10px;
+}
+
+.boasVindas1 {
+    font-size: 27px;
+    color: var(--primary-color);
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.boasVindas2 {
+    font-size: 20px;
+    color: var(--font-color);
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding: 0 0 10px 0;
+}
+
+#container {
+    background-color: var(--bg-color);
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#container2 {
+    margin-top: 50px;
+    background-color: var(--bg-color);
+    padding: 50px 20px 50px 20px;
+    border: var(--primary-color) double 5px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1 {
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+#name {
+    width: 280px;
+    padding:8px;
+    border-radius: 5px;
+}
+
+#tech {
+    width: 280px;
+    padding:8px;
+    border-radius: 5px;
+}
+
+#tecnologias {
+    width: 280px;
+    padding:8px;
+    border-radius: 5px;
+    margin-bottom: 7px;
+}
+
+#tempo {
+    margin-bottom: 10px;
+}
+
+button {
+    color: var(--bg-color);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: .25rem;
+    font-weight: 700;
+    padding: .6rem 2rem;
+    transition: .15s;
+    cursor:pointer;
+}
+
+#botoes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.botao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: var(--bg-color) double 5px;
+}
+
+.cadastro {
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: var(--bg-color) double 5px;
+}
+
+button:hover {
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+    transform: scale(1.1);
+    border: var(--primary-color) double 5px;
+}
+
+#themeSwitcher {
+    color: var(--bg-color);
+    background-color: var(--primary-color);
+    border: var(--bg-color) double 5px;
+    transition: .15s;
+    cursor:pointer;
+}
+    
+
+#themeSwitcher:hover {
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+    transform: scale(1.1);
+    border: var(--primary-color) double 5px;
+}
+
